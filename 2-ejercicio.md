@@ -7,12 +7,12 @@ docker run -d --name contenedor-postgres -e POSTGRES_PASSWORD=samira postgres:15
 
 # COMPLETAR
 ```
-docker run -d --name pgAdminContenedor -e PGADMIN_DEFAULT_EMAIL=admin@mail.com -e PGADMIN_DEFAULT_PASSWORD=admin -p 8081:80 dpage/pgadmin4
+docker run -d --name pgAdminContenedor -e PGADMIN_DEFAULT_EMAIL=admin@mail.com -e PGADMIN_DEFAULT_PASSWORD=admin -p 8080:80 dpage/pgadmin4
 ```
 La figura presenta el esquema creado en donde los puertos son:
-- a: (completar con el valor)
-- b: (completar con el valor)
-- c: (completar con el valor)
+- a: (8080)
+- b: (5432)
+- c: (80)
 
 ![Imagen](esquema-2-ejercicio.PNG)
 
@@ -50,7 +50,8 @@ Insetar registros
 INSERT INTO personas (nombre) VALUES ('Samira');
 INSERT INTO personas (nombre) VALUES ('Fernanda');
 ```
-<img width="1082" height="594" alt="image" src="https://github.com/user-attachments/assets/460e6a66-03e8-45e9-9094-dead33306a1f" />
+<img width="988" height="1139" alt="image" src="https://github.com/user-attachments/assets/ff6d4021-0d48-401e-9315-6b54890b68cd" />
+
 
 ## Desde el servidor postgresl
 ### Acceder al servidor
