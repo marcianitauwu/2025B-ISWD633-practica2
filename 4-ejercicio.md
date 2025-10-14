@@ -19,13 +19,14 @@ docker run -d --name wordpress-contenedor --network net-wp -p 8000:80 -e WORDPRE
 Ingresar desde el navegador al wordpress y finalizar la configuración de instalación.
 # COLOCAR UNA CAPTURA DE LA CONFIGURACIÓN
 
-<img width="2449" height="1409" alt="image" src="https://github.com/user-attachments/assets/9fc9b750-5f9d-43d2-bca6-18056801bf14" />
+<img width="1903" height="1514" alt="image" src="https://github.com/user-attachments/assets/f2bd1a56-c8df-4285-8e46-dece99a8f583" />
+
 
 Desde el panel de admin: cambiar el tema y crear una nueva publicación.
 Ingresar a: http://localhost:9300/ 
 recordar que a es el puerto que usó para el mapeo con wordpress
 # COLOCAR UNA CAPTURA DEL SITO EN DONDE SEA VISIBLE LA PUBLICACIÓN.
-<img width="2411" height="1198" alt="image" src="https://github.com/user-attachments/assets/09f47a9f-a54d-44bb-8d9c-084afa46c46e" />
+<img width="2949" height="2089" alt="image" src="https://github.com/user-attachments/assets/d369b78d-2d3f-45ec-b40e-d96bb3dad60f" />
 
 ### Eliminar el contenedor wordpress
 # COMPLETAR
@@ -36,7 +37,8 @@ docker rm -f wordpress-contenedor
 Ingresar a: http://localhost:9300/ 
 recordar que a es el puerto que usó para el mapeo con wordpress
 
-<img width="2337" height="979" alt="image" src="https://github.com/user-attachments/assets/06164027-1227-45de-9f6c-abf1563da762" />
+<img width="2805" height="856" alt="image" src="https://github.com/user-attachments/assets/1fa97708-df24-4740-9c3f-d6a1ca0e5438" />
+
 
 ### ¿Qué ha sucedido, qué puede observar?
 # COMPLETAR
